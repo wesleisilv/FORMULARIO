@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+
+</head>
+<body>
+ 
+    <form>
+      <h2>FORMULARIO</h2>
+        <div class="mb-3">
+            <label for="exampleInputname" class="form-label">name</label>
+            <input type="name" class="form-control" id="exampleInputname">
+          </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputaddress" class="form-label">address</label>
+    <input type="address" class="form-control" id="exampleInputaddress">
+  </div>
+  <p>sex</p>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+      girl
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+      boy
+    </label>
+  </div>
+  <p>city</p>
+  <select class="form-select" aria-label="Default select example">
+    <option selected>city</option>
+    <option value="1">JARDIM-CE</option>
+    <option value="2">JUAZEIRO-CE</option>
+    <option value="3">CRATO-CE</option>
+  </select>
+  <p>selecione uma cor para o curso</p>
+  <ul>
+    <li>
+  <p>curso A</p>
+</li>
+  </ul>
+  <select class="form-select" aria-label="Default select example">
+    <option selected>color</option>
+    <option value="1">red</option>
+    <option value="2">blue</option>
+    <option value="3">white</option>
+    <option value="4">green</option>
+  </select>
+  <ul>
+    <li>
+  <p>curso B</p>
+    </li>
+  </ul>
+  <select class="form-select" aria-label="Default select example">
+    <option selected>color</option>
+    <option value="1">red</option>
+    <option value="2">blue</option>
+    <option value="3">white</option>
+    <option value="4">green</option>
+  </select>
+  <ul>
+  <li>
+  <P>curso C</P>
+</li>
+</ul>
+  <select class="form-select" aria-label="Default select example">
+    <option selected>color</option>
+    <option value="1">red</option>
+    <option value="2">blue</option>
+    <option value="3">white</option>
+    <option value="4">green</option>
+    <option value="5">pink</option>
+    <option value="6">yellow</option>
+  </select>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+   
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+   
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+   
+    
+  
+  </style>
+</form>
+</body>
+</html>
